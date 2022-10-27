@@ -1,0 +1,45 @@
+							
+				DIFFERENCE BETWEEN WINDOW,DOCUMENT AND SCREEN OBJECT
+
+WINDOW OBJECT
+
+	Windows interface represent a window containing DOM document.An object of window is automatically created by browser.A window for a given document
+can be obtained using the document.defaultView property.The window interface is home to variety of functions,namespaces,objects and constructors.It is the suitable 
+place to include these items that need to be globally available.In a tabbed browser,each tab is represented by its own window object.
+
+	Some methods of window object are as follows
+
+ window.alert()	-    displays alert box containing message with ok button
+ window.confirm()	-    displays confirm dialog box containing message with ok and cancel button
+ open()		-    opens a new window
+ close()		-    closes current window
+
+DOCUMENT OBJECT
+
+	Document interface represents any web page loaded in browser and serves as an entry point into the web page's content,which is DOM tree.The DOM tree 
+includes elements such as<body>,<div>,<table>etc.,It represents the whole HTML document.With the help of it we can add dynamic content to our web page.It is the 
+object of window.Some of the properties of Document object are anchor,form,link,text,textarea,checkbox,radio,select,option,reset.
+
+	some methods of document object are as follows
+
+ write("string")		-     writes the given string on document
+ getElementById()		-     returns the element that has ID attribute with specified value
+ getElementsByName()	-     returns all the elements that has the given name value
+ getElementsByTagName()	-     returns all the elements having the given tag name.
+ getElementsByClassName()	-     returns all the elements having the given class name.
+
+SCREEN OBJECT
+
+	Screen object holds information about the browser screen.The screen object is a special object for inspecting properties of the screen on which the current 
+window is being rendered.It can be used to access the screen width,height,color depth pixel depth etc.,It can be accessed using window.screen or screen
+
+	Some properties of screen object are as follows
+
+width		-	returns the width of the screen
+height		-	returns the height of the screen
+availWidth	-	returns the available width
+availHeight	-	returns the available height
+colorDepth		-	returns the color depth
+pixelDepth		-	returns the pixel depth
+
+
